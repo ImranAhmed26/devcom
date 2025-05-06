@@ -34,6 +34,19 @@ export const JOB_BOARD_DATA = {
       { value: 'mid', label: 'Mid Level' },
       { value: 'senior', label: 'Senior Level' },
     ],
+    programmingLanguages: [
+      { value: 'all', label: 'All Languages' },
+      { value: 'javascript', label: 'JavaScript' },
+      { value: 'python', label: 'Python' },
+      { value: 'java', label: 'Java' },
+      { value: 'csharp', label: 'C#' },
+      { value: 'cpp', label: 'C++' },
+      { value: 'ruby', label: 'Ruby' },
+      { value: 'php', label: 'PHP' },
+      { value: 'swift', label: 'Swift' },
+      { value: 'kotlin', label: 'Kotlin' },
+      { value: 'go', label: 'Go' },
+    ],
   },
 
   buttons: {
