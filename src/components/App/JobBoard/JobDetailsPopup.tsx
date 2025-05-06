@@ -12,7 +12,7 @@ const JobDetailsPopup = ({ job }: JobDetailsPopupProps) => {
   return (
     <div className='w-[400px] fixed right-[15%] top-1/4 space-y-6 p-6 bg-white dark:bg-gray-900/40 backdrop-blur-lg rounded-2xl shadow-lg border border-gray-200 dark:border-gray-800/20 transition-all'>
       <div className='space-y-4'>
-        <h2 className='text-2xl font-semibold text-brandLight dark:text-brandDark'>
+        <h2 className='text-2xl font-semibold'>
           {job.title}
         </h2>
         <div className='flex items-center gap-2 text-sm font-medium text-brandLight/70 dark:text-brandDark/70'>
@@ -26,7 +26,7 @@ const JobDetailsPopup = ({ job }: JobDetailsPopupProps) => {
         <h3 className='text-lg font-semibold text-brandLight dark:text-brandDark'>
           Job Description
         </h3>
-        <p className='text-base text-brandLight/80 dark:text-brandDark/80'>
+        <p className='text-base'>
           {job.description}
         </p>
       </div>
@@ -47,7 +47,7 @@ const JobDetailsPopup = ({ job }: JobDetailsPopupProps) => {
         </div>
       </div>
 
-      <button className='w-full px-4 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-xl transition-colors'>
+      <button className='w-full px-4 py-3 bg-brandLight hover:bg-brandDark text-white font-medium rounded-xl transition-colors'>
         Apply Now
       </button>
     </div>
