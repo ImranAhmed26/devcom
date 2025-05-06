@@ -3,7 +3,7 @@ import { JOB_BOARD_DATA } from '@/constants/JobBoard';
 
 const TitleBar = () => {
   const { title, description } = JOB_BOARD_DATA.titleBar;
-  
+
   return (
     <div className='flex flex-col gap-3 pb-8'>
       <h1 className='text-5xl font-bold text-gray-900 dark:text-white'>
